@@ -1,4 +1,4 @@
-# TeamInterval_MachineTest
+# TeamInterval
 
 Created API's for the following using Node Js and MySql.
 
@@ -13,42 +13,3 @@ Created API's for the following using Node Js and MySql.
 - For editing an article.
 
 - For removing an article from the database.
-## API Reference
-
-#### Insert 
-
-```http
-  POST /categories/add_category
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `category_name ` | String | **Required**|
-
-#### Get All categories
-
-```http
-  GET /categories
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `none`      |  | **Required**. |
-
-
-#### Insert 
-
-```http
-  POST /articles/add_article
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `heading ` | String | **Required**|
-| `read_time ` | String | **Required**|
-| `description ` | String | **Required**|
-| `categories ` | String | **Required**|
-| `thumbnail ` | Image | Thumbnail Image of the article, **Required**|
-| `featured ` | Image | Featured Image of the article, **Required**|
-| `status ` | String | **Required**|
-
